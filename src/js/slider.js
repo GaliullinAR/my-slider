@@ -220,11 +220,11 @@ class ElementCreateBox {
 }
 
 const element = new ElementCreateBox('box', {
-  dots: false,
+  dots: true,
   gap: 60,
   animaitonDuration: 500,
   autoPlay: true,
-  autoPlayTime: 4000,
+  autoPlayTime: 3000,
   buttons: true
 });
 
